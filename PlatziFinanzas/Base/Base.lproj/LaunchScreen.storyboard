@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="rWo-Zp-P1c">
-                                <rect key="frame" x="35.5" y="257" width="304" height="153"/>
+                                <rect key="frame" x="40" y="259.5" width="295" height="148"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" secondItem="rWo-Zp-P1c" secondAttribute="height" multiplier="304:153" id="36f-U0-6jz"/>
                                     <constraint firstAttribute="width" constant="304" id="o1j-q5-PYf"/>
-                                    <constraint firstAttribute="height" constant="153" id="tNE-wp-5xq"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -29,9 +29,14 @@
                         <constraints>
                             <constraint firstItem="rWo-Zp-P1c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Pdk-18-32X"/>
                             <constraint firstItem="rWo-Zp-P1c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WWV-XB-TsA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rWo-Zp-P1c" secondAttribute="trailing" constant="40" id="ew1-3v-HEa"/>
+                            <constraint firstItem="rWo-Zp-P1c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="zMT-oK-rRh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="rWo-Zp-P1c" id="6Wo-71-cHl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
