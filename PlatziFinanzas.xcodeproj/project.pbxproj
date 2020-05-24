@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D89182B247A194A003F01E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D89182A247A194A003F01E6 /* MapKit.framework */; };
+		1D891838247A31D4003F01E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1D891837247A31D4003F01E6 /* .gitignore */; };
+		1D89183A247A3C0E003F01E6 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D891839247A3C0E003F01E6 /* Transactions.storyboard */; };
+		1D89183C247A3E68003F01E6 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D89183B247A3E68003F01E6 /* Profile.storyboard */; };
+		1D891841247A3ED5003F01E6 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D891840247A3ED5003F01E6 /* Statistics.storyboard */; };
+		1D891843247A3F23003F01E6 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D891842247A3F23003F01E6 /* Budget.storyboard */; };
+		1D891846247A3F3E003F01E6 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D891844247A3F3E003F01E6 /* Add.storyboard */; };
+		1D891848247AFC1A003F01E6 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D891847247AFC1A003F01E6 /* SignIn.storyboard */; };
 		1DF618EF22C6EEC400E87602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF618EE22C6EEC400E87602 /* AppDelegate.swift */; };
 		1DF618F122C6EEC400E87602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF618F022C6EEC400E87602 /* ViewController.swift */; };
 		1DF618F422C6EEC400E87602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF618F222C6EEC400E87602 /* Main.storyboard */; };
@@ -41,6 +48,13 @@
 
 /* Begin PBXFileReference section */
 		1D89182A247A194A003F01E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1D891837247A31D4003F01E6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1D891839247A3C0E003F01E6 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		1D89183B247A3E68003F01E6 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		1D891840247A3ED5003F01E6 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		1D891842247A3F23003F01E6 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		1D891845247A3F3E003F01E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Add.storyboard; sourceTree = "<group>"; };
+		1D891847247AFC1A003F01E6 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		1DF618EB22C6EEC400E87602 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF618EE22C6EEC400E87602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DF618F022C6EEC400E87602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +163,9 @@
 		1D891831247A1B4E003F01E6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1D89183F247A3EA6003F01E6 /* Add */,
+				1D89183E247A3E92003F01E6 /* Statistics */,
+				1D89183D247A3E7E003F01E6 /* Budget */,
 				1D891836247A1C08003F01E6 /* Main */,
 				1D891835247A1BEE003F01E6 /* Profile */,
 				1D891834247A1BCA003F01E6 /* Transactions */,
@@ -166,6 +183,7 @@
 		1D891833247A1B95003F01E6 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				1D891847247AFC1A003F01E6 /* SignIn.storyboard */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -173,6 +191,7 @@
 		1D891834247A1BCA003F01E6 /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				1D891839247A3C0E003F01E6 /* Transactions.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -180,6 +199,7 @@
 		1D891835247A1BEE003F01E6 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				1D89183B247A3E68003F01E6 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -191,6 +211,30 @@
 				1DF618F222C6EEC400E87602 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		1D89183D247A3E7E003F01E6 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				1D891842247A3F23003F01E6 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		1D89183E247A3E92003F01E6 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				1D891840247A3ED5003F01E6 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		1D89183F247A3EA6003F01E6 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				1D891844247A3F3E003F01E6 /* Add.storyboard */,
+			);
+			path = Add;
 			sourceTree = "<group>";
 		};
 		1DF618E222C6EEC400E87602 = {
@@ -223,6 +267,7 @@
 				1D89182D247A1A49003F01E6 /* Base */,
 				1D89182C247A1A16003F01E6 /* Application */,
 				1DF6192B22C6F84A00E87602 /* PlatziFinanzas.entitlements */,
+				1D891837247A31D4003F01E6 /* .gitignore */,
 			);
 			path = PlatziFinanzas;
 			sourceTree = "<group>";
@@ -382,9 +427,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D89183C247A3E68003F01E6 /* Profile.storyboard in Resources */,
+				1D891838247A31D4003F01E6 /* .gitignore in Resources */,
 				1DF618F922C6EEC600E87602 /* LaunchScreen.storyboard in Resources */,
+				1D891843247A3F23003F01E6 /* Budget.storyboard in Resources */,
+				1D891846247A3F3E003F01E6 /* Add.storyboard in Resources */,
 				1DF618F622C6EEC600E87602 /* Assets.xcassets in Resources */,
+				1D891848247AFC1A003F01E6 /* SignIn.storyboard in Resources */,
 				1DF618F422C6EEC400E87602 /* Main.storyboard in Resources */,
+				1D891841247A3ED5003F01E6 /* Statistics.storyboard in Resources */,
+				1D89183A247A3C0E003F01E6 /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +517,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1D891844247A3F3E003F01E6 /* Add.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D891845247A3F3E003F01E6 /* Base */,
+			);
+			name = Add.storyboard;
+			sourceTree = "<group>";
+		};
 		1DF618F222C6EEC400E87602 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
