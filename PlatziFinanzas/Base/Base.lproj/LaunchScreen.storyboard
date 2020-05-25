@@ -29,8 +29,8 @@
                         <constraints>
                             <constraint firstItem="rWo-Zp-P1c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Pdk-18-32X"/>
                             <constraint firstItem="rWo-Zp-P1c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WWV-XB-TsA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rWo-Zp-P1c" secondAttribute="trailing" constant="40" id="ew1-3v-HEa"/>
-                            <constraint firstItem="rWo-Zp-P1c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="zMT-oK-rRh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rWo-Zp-P1c" secondAttribute="trailing" constant="40" id="ew1-3v-HEa"/>
+                            <constraint firstItem="rWo-Zp-P1c" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="zMT-oK-rRh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
