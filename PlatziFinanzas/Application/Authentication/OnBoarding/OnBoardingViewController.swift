@@ -9,7 +9,7 @@
 import UIKit
 
 class OnBoardingViewController: UIPageViewController {
-
+    weak var pageControl: UIPageControl!
     override func viewDidLoad() {
         super.viewDidLoad()
 
