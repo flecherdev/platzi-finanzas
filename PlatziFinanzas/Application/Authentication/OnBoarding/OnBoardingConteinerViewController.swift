@@ -18,6 +18,7 @@ class OnBoardingConteinerViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // desde este punto se controlara el page view controler 
         guard segue.identifier == "openOnBoarding", let destination = segue.destination as? OnBoardingViewController else {
             return
         }

@@ -8,13 +8,13 @@
 
 import UIKit
 
-class OnBordingStepsViewController: UIViewController {
+class OnBoardingStepsViewController: UIViewController {
     // referencias a nuestra estructura de datos (1)
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var OnBoardingImageLabel  : UIImageView!
 
-    var item : OnBordingItem? //? el signo determina si es opcional (2)
+    var item : OnBoardingItem? //? el signo determina si es opcional (2)
     
     
     override func viewDidLoad() {
